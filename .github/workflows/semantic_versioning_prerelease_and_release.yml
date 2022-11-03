@@ -77,7 +77,7 @@ jobs:
           bump_each_commit: false
       - name: "Apply tag"
         id: apply_tag
-        uses: actions/create-release@00cb9c9b65d5d1901c1f53e5e66eaf4afd303e70e # pin@v1.1.4 https://github.com/actions/create-release/commit/0cb9c9b65d5d1901c1f53e5e66eaf4afd303e70e
+        uses: actions/create-release@0cb9c9b65d5d1901c1f53e5e66eaf4afd303e70e # pin@v1.1.4 https://github.com/actions/create-release/commit/0cb9c9b65d5d1901c1f53e5e66eaf4afd303e70e
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
